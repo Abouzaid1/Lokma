@@ -1,0 +1,13 @@
+ - Splash screen
+ - Auth   
+    - Login
+    - Register
+ - Home page
+     - With Login
+     - Without login
+
+
+
+food = {
+   name, price, desc, category, image, rating, images, estimatedTime, reviews
+}

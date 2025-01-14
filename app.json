@@ -12,6 +12,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.yourcompany.lokma",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -24,6 +25,7 @@
     },
     "plugins": [
       "expo-router",
+      "expo-localization",
       [
         "expo-splash-screen",
         {
@@ -34,6 +36,10 @@
         }
       ]
     ],
+    "extra": {
+      "supportsRTL": true,
+      "forcesRTL": true
+    },
     "experiments": {
       "typedRoutes": true
     }
