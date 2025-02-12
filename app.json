@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "ShahyaMobileAppExpo",
-    "slug": "ShahyaMobileAppExpo",
+    "slug": "lokma-cbqnwufuzufn0u4iqu4cf",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,7 +9,11 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "ExpoLocalization_supportsRTL": true,
+        "ExpoLocalization_forcesRTL": true
+      }
     },
     "android": {
       "package": "com.yourcompany.lokma",
@@ -38,10 +42,17 @@
     ],
     "extra": {
       "supportsRTL": true,
-      "forcesRTL": true
+      "forcesRTL": true,
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "7d933075-43aa-4607-b033-e795b9cc2698"
+      }
     },
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "owner": "abouzaid"
   }
 }
